@@ -1,0 +1,62 @@
+{
+  "id": 18,
+  "name": "刘莲",
+  "name_en": "Liulian",
+  "weapon_type": "长剑 / 双刀",
+  "weapon_type_en": "Longsword / Dual Blades",
+  "faction": "未知",
+  "faction_en": "Unknown",
+  "bio": "刘莲，以莲花之力净化战场的战士。她以柔克刚，以水之力化解一切攻击，是战场上优雅而强大的存在。",
+  "bio_en": "Liulian, a warrior who purifies the battlefield with lotus power. She overcomes hardness with softness, dissolving all attacks with water power.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/liulian-1_51c09137.jpg",
+  "color": "#1A6B5A",
+  "drawable_name": "hero_liulian_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "莲花战士",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "未知",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "刘莲，以莲花之力净化战场的战士。她以柔克刚，以水之力化解一切攻击，在战场上展现出优雅而强大的战斗风格。",
+  "skills": [
+    {
+      "skill_name": "莲花步",
+      "skill_name_en": "Lotus Step",
+      "skill_description": "以莲花之力向前闪现，留下莲花印记，对经过的敌人造成伤害。冷却20秒。",
+      "skill_description_en": "Flash forward with lotus power, leaving lotus marks that damage enemies who pass through. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "莲花步·净化",
+      "skill_name_en": "Lotus Step: Purify",
+      "skill_description": "以莲花之力向前闪现，净化自身所有负面效果，并对附近敌人造成伤害。冷却25秒。",
+      "skill_description_en": "Flash forward with lotus power, purifying all negative effects on self and damaging nearby enemies. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "莲花领域",
+      "skill_name_en": "Lotus Domain",
+      "skill_description": "释放莲花领域，范围内友军持续恢复生命值，敌人移速降低。持续15秒。怒气上限75000。",
+      "skill_description_en": "Release a Lotus Domain where allies continuously regenerate HP and enemies are slowed. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "莲花领域·强化",
+      "skill_name_en": "Lotus Domain: Enhanced",
+      "skill_description": "释放强化莲花领域，范围内友军持续恢复生命值，同时提升友军攻击力。持续15秒。怒气上限75000。",
+      "skill_description_en": "Release an enhanced Lotus Domain where allies regenerate HP and gain increased attack. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

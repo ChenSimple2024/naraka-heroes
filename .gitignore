@@ -1,0 +1,48 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+captures/
+
+# External native build output
+.externalNativeBuild
+.cxx
+cmake-build-debug/
+
+# Log files
+*.log
+
+# Android App Bundle packaging
+*.ap_
+*.aab
+*.keystore
+*.jks
+
+# Java/Kotlin generated files
+bin/
+gen/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# JVM Crash Logs / Heap Dumps
+*.hprof

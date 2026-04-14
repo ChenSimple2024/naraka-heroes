@@ -1,0 +1,62 @@
+{
+  "id": 14,
+  "name": "岳山",
+  "name_en": "Yueshan",
+  "weapon_type": "大刀 / 长枪",
+  "weapon_type_en": "Greatsword / Spear",
+  "faction": "帝国",
+  "faction_en": "Empire",
+  "bio": "岳山，威震四方的将军，以无上武力统御战场。他的生存能力极强，以将军之威震慑敌人，以铁血之志横扫一切。",
+  "bio_en": "Yueshan, a general who dominates the battlefield with supreme martial power. He has excellent survivability and intimidates enemies with his general's might.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/yueshan-1_65be214b.jpg",
+  "color": "#6B1A1A",
+  "drawable_name": "hero_yueshan_portrait",
+  "age": "未知",
+  "birthplace": "帝国",
+  "identity": "将军",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "战斗、统御",
+  "dislikes": "懦弱、背叛",
+  "cv": "未知",
+  "story": "岳山，帝国将军，以无上武力统御战场。他进入全能将军模式时，恢复全部生命值，以铁血之志横扫一切阻碍，是战场上最强大的存在之一。",
+  "skills": [
+    {
+      "skill_name": "破阵",
+      "skill_name_en": "Line Breaker",
+      "skill_description": "向前冲刺，造成击退效果。冷却25秒。",
+      "skill_description_en": "Dash forward, causing knockback. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "破阵·冲锋",
+      "skill_name_en": "Line Breaker: Rush",
+      "skill_description": "向前冲刺造成击退，并使敌人眩晕1秒。冷却20秒。",
+      "skill_description_en": "Move forward further, causing knockback and stunning enemies for 1s. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "斩将夺旗",
+      "skill_name_en": "Troop Decimation",
+      "skill_description": "进入全能将军模式，凝聚全部气力，恢复全部生命值，持续30秒。可按F发动斩杀，随后发动蓄力攻击。",
+      "skill_description_en": "Go into Almighty General mode, focus all Qi, and regain all health for 30s. Press F to carry out an execution followed by a charged attack.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "斩将夺旗·天降",
+      "skill_name_en": "Troop Decimation: Heaven's Descent",
+      "skill_description": "进入全能将军模式并恢复全部生命值，按F可向前跳跃，使附近敌人被击飞。",
+      "skill_description_en": "Enter Almighty General mode and regain all health. Tap F to leap forward and knock back nearby enemies.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

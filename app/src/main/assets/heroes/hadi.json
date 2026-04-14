@@ -1,0 +1,62 @@
+{
+  "id": 20,
+  "name": "哈迪",
+  "name_en": "Hadi Ismail",
+  "weapon_type": "双刀 / 长枪",
+  "weapon_type_en": "Dual Blades / Spear",
+  "faction": "沙漠",
+  "faction_en": "Desert",
+  "bio": "哈迪，沙漠中最强大的战士。他在单人游戏中极为强势，以飞行闪避攻击反制几乎所有英雄，同时治愈自身。",
+  "bio_en": "Hadi Ismail, the strongest warrior in the desert. He is extremely potent in solo game mode, countering almost any hero with his flying dodge attack while healing himself.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/hadi-1_60837a57.jpg",
+  "color": "#8B6A1A",
+  "drawable_name": "hero_hadi_portrait",
+  "age": "未知",
+  "birthplace": "沙漠",
+  "identity": "沙漠勇士",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "战斗、飞行",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "哈迪，沙漠中最强大的战士。他以飞行闪避攻击反制几乎所有英雄，同时治愈自身，是单人游戏中最强势的英雄之一。他的存在让敌人望而生畏。",
+  "skills": [
+    {
+      "skill_name": "空中突袭",
+      "skill_name_en": "Aerial Assault",
+      "skill_description": "腾空而起，向目标位置发动空中突袭，造成大量伤害并恢复自身生命值。冷却25秒。",
+      "skill_description_en": "Leap into the air and launch an aerial assault on the target location, dealing massive damage and restoring own HP. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "空中突袭·连击",
+      "skill_name_en": "Aerial Assault: Chain",
+      "skill_description": "腾空而起，向目标位置发动连续空中突袭，造成大量伤害并恢复自身生命值。冷却28秒。",
+      "skill_description_en": "Leap into the air and launch consecutive aerial assaults, dealing massive damage and restoring own HP. Cooldown: 28s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "沙漠风暴",
+      "skill_name_en": "Desert Storm",
+      "skill_description": "召唤沙漠风暴，对范围内所有敌人造成持续伤害，并使其移速降低。持续15秒。怒气上限75000。",
+      "skill_description_en": "Summon a Desert Storm, dealing continuous damage to all enemies in range and slowing them. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "沙漠风暴·强化",
+      "skill_name_en": "Desert Storm: Enhanced",
+      "skill_description": "召唤强化沙漠风暴，对范围内所有敌人造成持续伤害，同时提升自身攻击力。持续15秒。怒气上限75000。",
+      "skill_description_en": "Summon an enhanced Desert Storm, dealing continuous damage to all enemies while boosting own attack. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

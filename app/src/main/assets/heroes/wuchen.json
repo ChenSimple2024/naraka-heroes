@@ -1,0 +1,62 @@
+{
+  "id": 9,
+  "name": "无尘",
+  "name_en": "Wuchen",
+  "weapon_type": "法杖 / 长剑",
+  "weapon_type_en": "Staff / Longsword",
+  "faction": "道门",
+  "faction_en": "Taoist",
+  "bio": "无尘，道门传人，以太极之力操控空间。他冷静而深邃，以无为之道应万变，以虚空之力制敌于无形。",
+  "bio_en": "Wuchen, a Taoist master who manipulates space with Tai Chi power. Calm and profound, he controls enemies with the power of the void.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/wuchen-1_71e6dc40.jpg",
+  "color": "#2A4A6B",
+  "drawable_name": "hero_wuchen_portrait",
+  "age": "未知",
+  "birthplace": "道门",
+  "identity": "道门传人",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "修道、参悟太极",
+  "dislikes": "浮躁",
+  "cv": "未知",
+  "story": "无尘，道门传人，以太极之力操控空间与传送。他以无为之道应万变，以虚空之力制敌于无形，是战场上最难以捉摸的存在。",
+  "skills": [
+    {
+      "skill_name": "灵刃",
+      "skill_name_en": "Spirit Blades",
+      "skill_description": "操控气力释放5把灵刃，持续1分钟。按F可射出灵刃。冷却18秒。",
+      "skill_description_en": "Manipulate Qi to cast 5 spirit blades that last 1 minute. Press F to shoot the blades. Cooldown: 18s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "灵刃·阵列",
+      "skill_name_en": "Spirit Blades: Array",
+      "skill_description": "释放5把灵刃，可自动射向来袭的敌人。若灵刃未命中，则召唤新的灵刃，同时降低敌人能量。冷却22秒。",
+      "skill_description_en": "Cast 5 spirit blades that automatically shoot at incoming enemies. If a blade misses, a new one is summoned, decreasing the opponent's energy. Cooldown: 22s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "太极裂隙",
+      "skill_name_en": "Tai Chi Rift",
+      "skill_description": "在50米范围内放置阴阳球，持续150秒。放置后按V可提升40米范围内友军的伤害减免，并在1.5秒后传送至阴阳球处。",
+      "skill_description_en": "Set down a Yin Yang orb within 50m that lasts 150s. After placement, press V to increase allies' damage reduction within 40m and teleport to the orb after 1.5s.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "太极裂隙·传送",
+      "skill_name_en": "Tai Chi Rift: Switch",
+      "skill_description": "施放终极技能时，可与范围内的敌人交换位置，最多传送3名敌人，并使其附加「易伤」效果。",
+      "skill_description_en": "When casting the ultimate, switch positions with enemies in the area. Up to 3 enemies can be teleported and marked with the Vulnerable debuff.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

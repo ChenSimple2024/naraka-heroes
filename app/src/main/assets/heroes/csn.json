@@ -1,0 +1,62 @@
+{
+  "id": 3,
+  "name": "崔三娘",
+  "name_en": "Valda Cui",
+  "weapon_type": "法杖 / 长枪",
+  "weapon_type_en": "Staff / Spear",
+  "faction": "海域",
+  "faction_en": "Seas",
+  "bio": "身为将门之后，崔三娘在命运的捉弄下叹息着踏上异乡之路。然而她胸怀大志，满腹谋略，为她所珍视的正义而战。",
+  "bio_en": "Valda Cui, descendent of a general, sighed at the way fate had unfolded as she headed abroad. Yet she harbored great ambition, fighting for the justice she holds dear.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/csn-1_adf302e6.jpg",
+  "color": "#1A5E5E",
+  "drawable_name": "hero_csn_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "将门之后",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "辩论、谋略",
+  "dislikes": "不公正",
+  "cv": "未知",
+  "story": "崔三娘，将门之后，善于辩论、长于借力。她是四海之上的主宰力量，以水之力横扫战场，为她所珍视的正义而战，必将掀起惊涛骇浪。",
+  "skills": [
+    {
+      "skill_name": "迷雾",
+      "skill_name_en": "Haze",
+      "skill_description": "射出含有海洋气息的水弹，持续8秒，并为命中的敌人附加「浸湿」标记。冷却15秒。",
+      "skill_description_en": "Shoot water bombs that last 8s and apply the Soaked debuff to hit enemies. Cooldown: 15s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "迷雾·阵列",
+      "skill_name_en": "Haze: Array",
+      "skill_description": "在20米范围内释放多个水弹，持续8秒，命中敌人使其束缚0.5秒并附加「浸湿」效果。冷却22秒。",
+      "skill_description_en": "Release multiple water bombs in a 20m radius, binding hit enemies for 0.5s and applying Soaked. Cooldown: 22s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "幽冥噩梦",
+      "skill_name_en": "Nether Nightmares",
+      "skill_description": "击退敌人，召唤海洋之流腾空，用龙之缠绕标记敌人15秒，可在空中召唤水矛结束终极技能。",
+      "skill_description_en": "Knock back enemies, summon Ocean Flow to go airborne, mark enemies with Dragon's Coil for 15s.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "幽冥噩梦·束缚",
+      "skill_name_en": "Nether Nightmares: Bind",
+      "skill_description": "击退敌人，用龙之缠绕束缚被攻击的敌人9秒，可召唤多支水矛造成额外伤害。",
+      "skill_description_en": "Knock back enemies, bind attacked enemies with Dragon's Coil for 9s, summon multiple water spears.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 11,
+  "name": "沈妙",
+  "name_en": "Feria Shen",
+  "weapon_type": "枪械 / 长剑",
+  "weapon_type_en": "Firearm / Longsword",
+  "faction": "机械",
+  "faction_en": "Mechanical",
+  "bio": "沈妙，以魅力与智慧征服战场的女性。她的伤害输出极为出色，以枪械与机甲为武器，在战场上游刃有余。",
+  "bio_en": "Feria Shen, a charming young woman who conquers the battlefield with charm and wits. Her damage output is one of her best qualities.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/sm-1_89dc8976.jpg",
+  "color": "#8B3A1A",
+  "drawable_name": "hero_sm_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "机械工程师",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "机械研究、战斗",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "沈妙，以魅力与智慧著称的战士。她驾驶青铜机甲，以枪械为武器，在战场上展现出令人叹为观止的战斗力。她的存在本身就是一种威慑。",
+  "skills": [
+    {
+      "skill_name": "枪法",
+      "skill_name_en": "Gunplay",
+      "skill_description": "向后跳跃同时向前射击，造成爆炸伤害。可移动准星调整跳跃方向。冷却25秒。",
+      "skill_description_en": "Leap back while firing outwards, causing a blast. Move the crosshair to adjust the direction of the leap. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "枪法·散射",
+      "skill_name_en": "Gunplay: Scattershot",
+      "skill_description": "向前冲刺同时向四面八方射击。可移动准星调整冲刺方向。冷却20秒。",
+      "skill_description_en": "Move forward while launching shots in every direction. Adjust the direction by moving the crosshair. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "机甲狂潮",
+      "skill_name_en": "Mech Mayhem",
+      "skill_description": "召唤青铜机甲并驾驶。可使用推进器向前移动，使用蜂群进行射击并积累机甲能量。",
+      "skill_description_en": "Call forth and pilot the Bronze Mech. Use thrust to move forward, and Swarm to shoot and build up the Mech's energy.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "机甲狂潮·恢复",
+      "skill_name_en": "Mech Mayhem: Recover",
+      "skill_description": "驾驶机甲，机甲能量和生命值提升。按F可消耗机甲生命值，为自身恢复护甲并提升友军伤害减免。",
+      "skill_description_en": "Pilot the mech with increased energy and HP. Press F to exhaust the Mech's HP, restoring Armor and increasing allies' damage reduction.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 4,
+  "name": "天海",
+  "name_en": "Tianhai",
+  "weapon_type": "拳套 / 法杖",
+  "weapon_type_en": "Gauntlets / Staff",
+  "faction": "佛门",
+  "faction_en": "Buddhist",
+  "bio": "在游历四方的旅途中，他终于找到了自己的使命：拯救这个世界，哪怕以自身为代价。他化身雷霆般的金刚战士，横扫一切阻碍。",
+  "bio_en": "During his travels, he finally found his calling: to save this world, even at the cost of his own life. He transforms into a titanic Vajra warrior that smites all before it.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/tianhai-1_97eca3c9.jpg",
+  "color": "#1A4A8B",
+  "drawable_name": "hero_tianhai_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "游历僧侣",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "游历、修行",
+  "dislikes": "邪恶",
+  "cv": "未知",
+  "story": "天海，游历四方的僧侣，终于找到了自己的使命。他以无上佛法为引，化身金刚战士，以雷霆之力横扫一切阻碍，誓要拯救这个世界。",
+  "skills": [
+    {
+      "skill_name": "神圣金钟",
+      "skill_name_en": "The Divine Bell",
+      "skill_description": "以气力护体，进入终极专注状态，格挡伤害和负面效果，并偏转远程攻击。冷却25秒。",
+      "skill_description_en": "Use Qi to protect yourself, entering Ultimate Focus, blocking damage and debuffs, deflecting ranged attacks. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "神圣金钟·反击",
+      "skill_name_en": "The Divine Bell: Counter",
+      "skill_description": "护体同时，可在施放技能时进行反击，随后发动反击连击。冷却25秒。",
+      "skill_description_en": "While protecting yourself, counter-attack when casting the skill, then follow up with a counter combo. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "金刚降临",
+      "skill_name_en": "Titan's Call",
+      "skill_description": "变身为金刚形态，恢复全部生命值，可抓取附近或远处敌人，按F用手掌踩踏。持续30秒。怒气上限75000。",
+      "skill_description_en": "Transform into Vajra form, restore all HP, grab nearby or distant enemies, press F to stomp. Duration: 30s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "金刚降临·守护",
+      "skill_name_en": "Titan's Call: Guard",
+      "skill_description": "变身金刚形态，可抓取友军为其恢复生命值和护甲。持续30秒。怒气上限75000。",
+      "skill_description_en": "Transform into Vajra form and grab allies to restore their HP and armor. Duration: 30s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

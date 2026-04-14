@@ -1,0 +1,62 @@
+{
+  "id": 10,
+  "name": "顾清寒",
+  "name_en": "Justina Gu",
+  "weapon_type": "长枪 / 双刀",
+  "weapon_type_en": "Spear / Dual Blades",
+  "faction": "北境",
+  "faction_en": "Northern",
+  "bio": "顾清寒，冬之恩典，以冰霜之力横扫战场。她极度敏捷，移动速度极快，以寒冰为武器，冻结一切阻碍。",
+  "bio_en": "Justina Gu, known as Winter's Grace, is incredibly agile and moves extremely fast. She uses ice as her weapon, freezing all obstacles in her path.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/gqh-1_85019efb.jpg",
+  "color": "#1A5A8B",
+  "drawable_name": "hero_gqh_portrait",
+  "age": "未知",
+  "birthplace": "北境",
+  "identity": "冰霜战士",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "速度、战斗",
+  "dislikes": "迟缓",
+  "cv": "未知",
+  "story": "顾清寒，北境冰霜战士，以极速与寒冰为武器。她的移动速度令敌人望尘莫及，以冰核之力守护自身，以北极幽灵之姿横扫战场。",
+  "skills": [
+    {
+      "skill_name": "冰核",
+      "skill_name_en": "Ice Core",
+      "skill_description": "短暂凝聚冰气，以冰霜光环环绕顾清寒持续4秒，格挡所有来袭攻击并恢复护甲。冷却28秒。",
+      "skill_description_en": "Briefly focus on Icy Qi to surround Justina with the Icy Aura for 4s, blocking all incoming attacks and restoring armor. Cooldown: 28s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "冰核·闪现",
+      "skill_name_en": "Ice Core: Blink",
+      "skill_description": "冰霜光环环绕顾清寒持续3秒，施放1.5秒后可跳跃或闪避取消效果。冷却25秒。",
+      "skill_description_en": "The Icy Aura surrounds Justina for 3s. 1.5s after activation, jump or dodge to cancel it. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "北极幽灵",
+      "skill_name_en": "Arctic Wraith",
+      "skill_description": "召唤冰气击退敌人，提升攻击力5%持续20秒。每次命中敌人可在5秒内额外获得5%攻击力加成。",
+      "skill_description_en": "Call forth Icy Qi to knock back enemies, enhancing attack by 5% for 20s. Every hit grants an additional 5% attack within a 5s timer.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "北极幽灵·冰暴",
+      "skill_name_en": "Arctic Wraith: Blizzard",
+      "skill_description": "召唤冰气并提升攻击力，同时召唤暴风雪，使敌人解冻时被冻结。",
+      "skill_description_en": "Summon Icy Qi and boost attack; also summon a blizzard that freezes enemies as they unfreeze.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

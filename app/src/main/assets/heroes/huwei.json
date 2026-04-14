@@ -1,0 +1,62 @@
+{
+  "id": 16,
+  "name": "胡为",
+  "name_en": "Akos Hu",
+  "weapon_type": "拳套 / 长剑",
+  "weapon_type_en": "Gauntlets / Longsword",
+  "faction": "野性",
+  "faction_en": "Wild",
+  "bio": "胡为，以野性之力横扫战场的猛虎。他没有防御技能，但终极技能可在受击时施放，以金色蓄力提供保护，是单人游戏的最佳选择。",
+  "bio_en": "Akos Hu, a fierce tiger who sweeps the battlefield with wild power. He has no defensive skill, but his ultimate can be cast while under attack, providing protection with a gold focus.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/huwei-1_37b72ad4.jpg",
+  "color": "#8B5A1A",
+  "drawable_name": "hero_huwei_portrait",
+  "age": "未知",
+  "birthplace": "野外",
+  "identity": "猛虎战士",
+  "fav_food": "肉类",
+  "dislike_food": "未知",
+  "hobbies": "战斗、狩猎",
+  "dislikes": "束缚",
+  "cv": "未知",
+  "story": "胡为，以野性之力横扫战场的猛虎。他的攻击速度极快，移动能力出色，在单人游戏中表现尤为突出。他的咆哮能震慑敌人，以野性本能主导战局。",
+  "skills": [
+    {
+      "skill_name": "咆哮",
+      "skill_name_en": "Roar",
+      "skill_description": "对附近敌人发动攻击，造成伤害并获得30%伤害减免。每命中一名敌人额外获得10%伤害减免。冷却25秒。",
+      "skill_description_en": "Strike nearby enemies to deal damage and gain 30% damage reduction. Each enemy hit grants an additional 10% damage reduction. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "咆哮·爆破",
+      "skill_name_en": "Roar: Blast",
+      "skill_description": "向指定位置释放冲击波。冷却28秒。",
+      "skill_description_en": "Summon forth a shockwave toward a selected location. Cooldown: 28s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "野性狂暴",
+      "skill_name_en": "Feral Frenzy",
+      "skill_description": "胡为咆哮并击退敌人，随后可进行虎跃和扑击。终极技能结束后可发动三次攻击。",
+      "skill_description_en": "Akos roars and knocks back enemies, then can tiger leap and pounce. After the ultimate, can carry out three strikes.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "野性狂暴·抓取",
+      "skill_name_en": "Feral Frenzy: Grab",
+      "skill_description": "胡为咆哮并击退敌人，随后可进行虎跃和扑击。终极技能结束后可向前冲刺并击打敌人。",
+      "skill_description_en": "Akos roars and knocks back enemies, then can tiger leap and pounce. After the ultimate, can lunge forward and smite opponents.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

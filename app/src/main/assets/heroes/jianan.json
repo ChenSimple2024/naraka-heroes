@@ -1,0 +1,62 @@
+{
+  "id": 6,
+  "name": "迦南",
+  "name_en": "Matari",
+  "weapon_type": "双刀 / 镰刀",
+  "weapon_type_en": "Dual Blades / Scythe",
+  "faction": "沙漠",
+  "faction_en": "Desert",
+  "bio": "在风沙磨砺中锻造的技艺，使她迅捷如鹰。在掌握了一门古老秘术后，她如幽灵般游荡于废墟之中。她是优雅的刺客，是权贵的噩梦。",
+  "bio_en": "Her skills honed by the windy deserts, she is swift as an eagle. Upon mastering an ancient secret art, she now roams the ruins like a phantom. She is a graceful assassin.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/jianan-1_f5335ada.jpg",
+  "color": "#1A3A5E",
+  "drawable_name": "hero_jianan_portrait",
+  "age": "未知",
+  "birthplace": "沙漠",
+  "identity": "刺客",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "暗杀、修炼秘术",
+  "dislikes": "权贵",
+  "cv": "未知",
+  "story": "迦南，沙漠中磨砺出的刺客，以古老秘术为引，如幽灵般穿梭于战场。她是优雅的死神，是权贵的噩梦，以无声的步伐终结一切。",
+  "skills": [
+    {
+      "skill_name": "无声羽翼",
+      "skill_name_en": "Silent Flutter",
+      "skill_description": "向目标方向闪现，攻击力提升15%，持续3秒。冷却20秒。",
+      "skill_description_en": "Flash toward the target direction, increasing attack by 15% for 3s. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "无声羽翼·急速",
+      "skill_name_en": "Silent Flutter: Rapid Flash",
+      "skill_description": "向目标方向闪现并提升攻击力，可连续闪现两次。冷却25秒，共2次充能。",
+      "skill_description_en": "Flash toward the target and boost attack. Can flash twice. Cooldown: 25s, 2 charges.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "无形之翼",
+      "skill_name_en": "Unseen Wings",
+      "skill_description": "重置技能冷却，进入隐身状态16秒。隐身期间无声羽翼的闪现距离大幅增加。怒气上限75000。",
+      "skill_description_en": "Reset skill cooldown and enter stealth for 16s. Silent Flutter's flash range is greatly increased while stealthed. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "无形之翼·刺杀",
+      "skill_name_en": "Unseen Wings: Assassin",
+      "skill_description": "重置技能冷却，进入隐身14秒，冲刺伤害大幅提升。怒气上限75000。",
+      "skill_description_en": "Reset skill cooldown, enter stealth for 14s, and greatly increase dash damage. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

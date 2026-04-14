@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 3,
+    "identityHash": "138616faeeefe80101e0081481e17195",
+    "entities": [
+      {
+        "tableName": "heroes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `name` TEXT NOT NULL, `nameEn` TEXT NOT NULL, `weaponType` TEXT NOT NULL, `faction` TEXT NOT NULL, `bio` TEXT NOT NULL, `avatarUrl` TEXT NOT NULL, `portraitUrl` TEXT NOT NULL, `color` TEXT NOT NULL, `drawableName` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nameEn",
+            "columnName": "nameEn",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weaponType",
+            "columnName": "weaponType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "faction",
+            "columnName": "faction",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bio",
+            "columnName": "bio",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "avatarUrl",
+            "columnName": "avatarUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "portraitUrl",
+            "columnName": "portraitUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "color",
+            "columnName": "color",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "drawableName",
+            "columnName": "drawableName",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "hero_skills",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`skillId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `heroId` INTEGER NOT NULL, `skillName` TEXT NOT NULL, `skillDescription` TEXT NOT NULL, `skillIconUrl` TEXT NOT NULL, `skillType` TEXT NOT NULL, FOREIGN KEY(`heroId`) REFERENCES `heroes`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "skillId",
+            "columnName": "skillId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "heroId",
+            "columnName": "heroId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skillName",
+            "columnName": "skillName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skillDescription",
+            "columnName": "skillDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skillIconUrl",
+            "columnName": "skillIconUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skillType",
+            "columnName": "skillType",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "skillId"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_hero_skills_heroId",
+            "unique": false,
+            "columnNames": [
+              "heroId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_hero_skills_heroId` ON `${TABLE_NAME}` (`heroId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "heroes",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "heroId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '138616faeeefe80101e0081481e17195')"
+    ]
+  }
+}

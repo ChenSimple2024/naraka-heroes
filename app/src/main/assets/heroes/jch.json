@@ -1,0 +1,62 @@
+{
+  "id": 7,
+  "name": "季沧海",
+  "name_en": "Tarka Ji",
+  "weapon_type": "拳套 / 长剑",
+  "weapon_type_en": "Gauntlets / Longsword",
+  "faction": "江湖",
+  "faction_en": "Jianghu",
+  "bio": "活得快意，喝得尽兴，享受当下。醉勇之名背后，是一个对自由的渴望与对饮酒的热情同样强烈的男人。他不屈的精神在逆境中赋予他力量。",
+  "bio_en": "Live fast, drink well, and be merry. Behind the name of the Loyal Drunk, there stands a man with a love for freedom as strong as his passion for drinking.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/jch-1_27be0316.jpg",
+  "color": "#8B4A1A",
+  "drawable_name": "hero_jch_portrait",
+  "age": "未知",
+  "birthplace": "江湖",
+  "identity": "醉勇",
+  "fav_food": "烈酒、烤肉",
+  "dislike_food": "未知",
+  "hobbies": "饮酒、战斗、自由",
+  "dislikes": "束缚、规矩",
+  "cv": "未知",
+  "story": "季沧海，江湖中的醉勇，以酒为伴，以拳为剑。他对自由的渴望与对饮酒的热情同样强烈，不屈的精神在逆境中赋予他无尽的力量。前路充满艰辛，但无论多么艰难，他都会欣然面对。",
+  "skills": [
+    {
+      "skill_name": "内火",
+      "skill_name_en": "Inner Fire",
+      "skill_description": "进入防御姿态，格挡伤害3秒，随后发动反击，使敌人燃烧5秒。冷却22秒。",
+      "skill_description_en": "Enter a defensive stance, blocking damage for 3s, then counter-attack and burn enemies for 5s. Cooldown: 22s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "内火·蓄势",
+      "skill_name_en": "Inner Fire: Bide",
+      "skill_description": "进入防御姿态格挡伤害5秒，反击伤害根据格挡量提升。冷却25秒。",
+      "skill_description_en": "Block damage for 5s; counter-attack damage scales with damage blocked. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "黑暗爆发",
+      "skill_name_en": "Blackout",
+      "skill_description": "击退附近敌人，进入强化状态32秒，攻击力大幅提升，部分攻击使敌人燃烧，同时提升友军能量恢复速度。怒气上限75000。",
+      "skill_description_en": "Repel nearby enemies and enter an empowered state for 32s, greatly boosting attack. Some attacks burn enemies. Allies recover energy faster. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "黑暗爆发·狂暴",
+      "skill_name_en": "Blackout: Frenzy",
+      "skill_description": "击退敌人，进入强化状态，攻击敌人时恢复怒气，同时提升友军攻击力30秒。怒气上限75000。",
+      "skill_description_en": "Repel enemies, enter empowered state, restore rage on hit, and boost allies' attack for 30s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

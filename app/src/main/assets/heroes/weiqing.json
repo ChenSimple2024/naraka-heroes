@@ -1,0 +1,62 @@
+{
+  "id": 15,
+  "name": "卫青",
+  "name_en": "Takeda Nobutada",
+  "weapon_type": "拳套 / 长剑",
+  "weapon_type_en": "Gauntlets / Longsword",
+  "faction": "武道",
+  "faction_en": "Martial Arts",
+  "bio": "卫青，武道宗师，以夺取敌人武器为战术核心。他是战场上最令人头疼的存在，以无限连击控制战局。",
+  "bio_en": "Takeda Nobutada, a martial arts master whose core tactic is stealing enemy weapons. He is the most troublesome presence on the battlefield, controlling the situation with infinite combos.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/weiqing-1_00040bf8.jpg",
+  "color": "#4A2A1A",
+  "drawable_name": "hero_weiqing_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "武道宗师",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "武道修炼、夺取武器",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "卫青，武道宗师，以夺取敌人武器为战术核心。他在单人游戏中极为烦人，难以对付，可以轻松设置无限连击。他的存在让敌人时刻处于警惕之中。",
+  "skills": [
+    {
+      "skill_name": "神话夺取",
+      "skill_name_en": "Mythic Grab",
+      "skill_description": "在10秒内保持警觉，当受到蓝色蓄力攻击时，取消攻击并夺取敌人武器，同时恢复少量生命值和护甲。冷却30秒。",
+      "skill_description_en": "Within 10s, when attacked by a Blue Focus attack, cancel it and steal the opponent's weapon, restoring some health and armor. Cooldown: 30s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "神话夺取·防御",
+      "skill_name_en": "Mythic Grab: Defend",
+      "skill_description": "向前冲刺，夺取敌人武器并攻击敌人，同时恢复更多生命值和护甲。冷却18秒。",
+      "skill_description_en": "Head forward, grab the opponent's weapon, and attack them, restoring even more health and armor. Cooldown: 18s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "鬼神援助",
+      "skill_name_en": "Demonic Aid",
+      "skill_description": "击退敌人并释放符仁持续30秒。按F攻击敌人，消耗25%怒气后恢复大量生命值和护甲。",
+      "skill_description_en": "Knock back enemies and cast out the Furen for 30s. Press F to attack enemies, and after consuming 25% rage, regain health and armor.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "鬼神援助·传送",
+      "skill_name_en": "Demonic Aid: Teleport",
+      "skill_description": "击退敌人并释放符仁，在2秒内可将空中的敌人再次击退。",
+      "skill_description_en": "Knock back enemies and cast out the Furen. Within 2s, knock back airborne enemies again.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

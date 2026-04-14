@@ -1,0 +1,62 @@
+{
+  "id": 2,
+  "name": "宁红夜",
+  "name_en": "Viper Ning",
+  "weapon_type": "长剑 / 镰刀",
+  "weapon_type_en": "Longsword / Scythe",
+  "faction": "玉山",
+  "faction_en": "Yushan",
+  "bio": "玉山盲剑客，血液中流淌着致命毒素。她美丽而危险，双刃随时待命。她的双眼将在命运之时方才睁开。",
+  "bio_en": "The Blind Blademaster of Yushan, Viper Ning's very blood has long been suffused with lethal poison. As beautiful as she is deadly, her blades are ever at the ready.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/nhy-1_c0b22ef7.jpg",
+  "color": "#8B1A1A",
+  "drawable_name": "hero_nhy_portrait",
+  "age": "未知",
+  "birthplace": "玉山",
+  "identity": "玉山盲剑客",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "剑术修炼",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "玉山盲剑客宁红夜，血液中流淌着致命毒素。她美丽而危险，以毒为剑，以感知代替视觉，立于人类之巅。她的双眼将在命运之时方才睁开，在那之前，她以无尽的修炼等待着那一刻的到来。",
+  "skills": [
+    {
+      "skill_name": "玉山秘法",
+      "skill_name_en": "Yushan Enigma",
+      "skill_description": "凝聚气力向前释放，造成击退效果，可打断敌人蓝色蓄力。可在受击时使用。冷却时间25秒。",
+      "skill_description_en": "Concentrate Qi and release it forward, knocking back enemies. Can be used while taking damage. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "玉山秘法·封锁",
+      "skill_name_en": "Yushan Enigma: Lockdown",
+      "skill_description": "凝聚气力向前释放，使敌人沉默8秒，无法使用技能和终极技能。冷却时间15秒。",
+      "skill_description_en": "Release Qi forward, silencing enemies for 8s. Cooldown: 15s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "暮色赤焰",
+      "skill_name_en": "Twilight Crimson",
+      "skill_description": "召唤月煞之眼锁定附近敌人，持续5秒并使其眩晕5秒。怒气上限75000。",
+      "skill_description_en": "Summon the God of Yin's eye to mark and stun nearby enemies. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "暮色赤焰·解封",
+      "skill_name_en": "Twilight Crimson: Unchained",
+      "skill_description": "召唤月煞之眼后可对锁定目标发动攻击，可打断黄色蓄力，自身获得40%伤害减免。",
+      "skill_description_en": "After summoning the eye, attack marked targets and interrupt Golden Focus. Gain 40% damage reduction.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

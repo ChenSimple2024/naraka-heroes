@@ -1,0 +1,62 @@
+{
+  "id": 1,
+  "name": "巫真",
+  "name_en": "Wuzheng",
+  "weapon_type": "弓",
+  "weapon_type_en": "Bow",
+  "faction": "巫氏",
+  "faction_en": "Wu Clan",
+  "bio": "巫氏之女，身负混沌真气，天资卓绝。历经磨难，守护巫氏，护佑天下。",
+  "bio_en": "Daughter of the Wu Clan, gifted with Chaos Qi. Through hardship, she protects her clan and the world.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/wz-1_ac3cd342.jpg",
+  "color": "#4A2E6B",
+  "drawable_name": "hero_wz_portrait",
+  "age": "未知",
+  "birthplace": "无极帝国-林州天坑",
+  "identity": "巫氏之女",
+  "fav_food": "烤肉、白米",
+  "dislike_food": "甜食",
+  "hobbies": "弓箭、钻研武艺、过年",
+  "dislikes": "拘束、不敬先祖之人",
+  "cv": "陆敏悦",
+  "story": "昔年羿皇一统天下，召十二部族大巫进京祈福，庇佑无极国祚。大巫们渐聚成名门巫氏，世代司掌国师之职。即使后来遭难，避居大荒森林，韬光养晦。巫氏护无极、救世人之心，从未断绝。巫真便出身于这名门之中。她身负混沌真气，天资卓绝，受父母宠爱疼惜。可她幼年时便逢大劫——金乌烛龙相争，有不知地厚天高者，妄图倒转乾坤。因缘际会，致二神血肉相融，混沌古神出世，世间尽毁。巫氏举族抗击混沌，尽数牺牲。唯有巫真存活下来，却也受混沌侵蚀，沦为\"鬼疫\"。为不负父母遗愿，她忍辱负重，听命于混沌，终成鬼疫之主，其间辛酸不可言说。机缘巧合，封印破碎，裂隙骤开！巫真与那宿命交缠的女子双双跌入其中。再度醒来时，眼前已是陌生世界……她头痛欲裂，记忆模糊，唯有纯熟箭术与杀戮本能深深铭记于脑海中，遂潜藏于中州鬼市，以手中长弓谋生。幸得有缘人天海指引，她寻到了这世间的巫家。在此，她重新感受到了久违的温暖，巫氏救世之念，不曾更改，令她心向往之。虽然怪梦频频，记忆也逐渐复苏，常觉自己并不属于此间。但家中的兴旺炉火，亲切笑语，助她从梦魇中遁逃，让她沉溺其中。她不愿细想，只想作为\"巫真\",和家人们生活下去。然好景不长，鬼疫终究穿过裂隙，追寻她至此，混沌古神亦已逼近。一番苦战，她终于忆起过往。回望尸山血海的来时路，巫真下定决心：守我巫氏，护佑天下。她再次提起弓箭，背井离乡，直面裂隙深处——那幽暗残酷的过往。以手中长弓，护佑此间，绝不许悲剧重蹈覆辙。",
+  "skills": [
+    {
+      "skill_name": "玉山秘法",
+      "skill_name_en": "Yushan Enigma",
+      "skill_description": "凝聚气力向前释放，造成击退效果，可打断敌人蓝色蓄力。可在受击时使用。冷却时间25秒。",
+      "skill_description_en": "Concentrate Qi and release it forward, knocking back enemies and interrupting Blue Focus. Can be used while taking damage. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "玉山秘法·封锁",
+      "skill_name_en": "Yushan Enigma: Lockdown",
+      "skill_description": "凝聚气力向前释放，使敌人沉默8秒，无法使用技能和终极技能。冷却时间15秒。",
+      "skill_description_en": "Release Qi forward, silencing enemies for 8s, preventing skill and ultimate use. Cooldown: 15s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "暮色赤焰",
+      "skill_name_en": "Twilight Crimson",
+      "skill_description": "召唤月煞之眼锁定附近敌人，持续5秒并使其眩晕5秒。被标记的敌人无法使用钩爪。怒气上限75000。",
+      "skill_description_en": "Summon the God of Yin's eye to mark nearby enemies for 5s, then stun them for 5s. Marked enemies cannot use grappling hooks. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "暮色赤焰·解封",
+      "skill_name_en": "Twilight Crimson: Unchained",
+      "skill_description": "召唤月煞之眼后可对锁定目标发动攻击，可打断黄色蓄力，自身获得40%伤害减免。怒气上限75000。",
+      "skill_description_en": "After summoning the eye, attack marked targets and interrupt Golden Focus. Gain 40% damage reduction. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

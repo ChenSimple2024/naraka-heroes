@@ -1,0 +1,62 @@
+{
+  "id": 17,
+  "name": "季莹莹",
+  "name_en": "Zai Ji",
+  "weapon_type": "镰刀 / 双刀",
+  "weapon_type_en": "Scythe / Dual Blades",
+  "faction": "暗杀者",
+  "faction_en": "Assassin",
+  "bio": "季莹莹，以火焰与镰刀横扫战场的刺客。她的生命充满痛苦与挣扎，以无情的火焰之刃终结一切。",
+  "bio_en": "Zai Ji, an assassin who sweeps the battlefield with flames and a scythe. Her life is defined by pain and struggle, ending everything with a merciless blade of fire.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/jyy-1_1e4b493a.jpg",
+  "color": "#8B1A3A",
+  "drawable_name": "hero_jyy_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "刺客",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "战斗、破坏",
+  "dislikes": "善良与纯洁",
+  "cv": "未知",
+  "story": "季莹莹，生命充满痛苦与挣扎的刺客。一个预言警告她将带来大灾难，她的父母将她卖给人贩子。多年后逃脱，加入精英刺客组织，成为终极杀戮机器。她以无情的火焰之刃，摧毁世间一切美好。",
+  "skills": [
+    {
+      "skill_name": "火焰护盾",
+      "skill_name_en": "Flame Ward",
+      "skill_description": "季莹莹向前冲刺并化身为火焰护盾，持续2秒，期间免疫受击伤害和硬直。1秒后可再次按F击退附近敌人。冷却25秒。",
+      "skill_description_en": "Zai lunges forth and transforms into Flame Ward for 2s, immune to hit damage and stagger. 1s after activation, press F again to knock back nearby enemies. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "火焰护盾·点燃",
+      "skill_name_en": "Flame Ward: Ignition",
+      "skill_description": "化身火焰护盾，免疫受击伤害，护盾结束时对附近敌人造成燃烧效果。冷却25秒。",
+      "skill_description_en": "Transform into Flame Ward, immune to hit damage. When the ward ends, apply burning to nearby enemies. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "锁链镰刀",
+      "skill_name_en": "Chain Scythe",
+      "skill_description": "重置技能冷却，将武器切换为锁链镰刀，持续30秒。点击LMB或RMB向瞄准方向投出锁链镰刀。",
+      "skill_description_en": "Reset skill cooldown and switch weapon to Chain Scythe for 30s. Tap LMB or RMB to throw out Chain Scythe toward the aimed direction.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "锁链镰刀·压制",
+      "skill_name_en": "Chain Scythe: Suppress",
+      "skill_description": "重置技能冷却，切换为锁链镰刀，持续30秒。锁链镰刀的攻击可压制敌人的蓄力。",
+      "skill_description_en": "Reset skill cooldown and switch to Chain Scythe for 30s. Chain Scythe attacks can suppress enemies' Focus charges.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

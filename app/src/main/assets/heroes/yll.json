@@ -1,0 +1,62 @@
+{
+  "id": 13,
+  "name": "殷紫萍",
+  "name_en": "Ziping Yin",
+  "weapon_type": "拳套 / 法杖",
+  "weapon_type_en": "Gauntlets / Staff",
+  "faction": "医道",
+  "faction_en": "Medical",
+  "bio": "殷紫萍，以治愈之力守护同伴的医者。她的生存能力极强，以香疗之术为盾，以治愈之力延续战斗。",
+  "bio_en": "Ziping Yin, a healer who protects allies with healing power. She has excellent survivability, using aromatherapy as a shield and healing power to sustain the battle.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/yll-1_c4ac65cb.jpg",
+  "color": "#2A6B3A",
+  "drawable_name": "hero_yll_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "医者",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "医术研究、治愈",
+  "dislikes": "战争与伤亡",
+  "cv": "未知",
+  "story": "殷紫萍，以治愈之力守护同伴的医者。她以香疗之术为盾，以救恩之力为援，在战场上扮演着不可或缺的守护角色。她的存在让同伴们能够更加无畏地战斗。",
+  "skills": [
+    {
+      "skill_name": "香疗",
+      "skill_name_en": "Aromatherapy",
+      "skill_description": "释放木质能量，种植灵枝持续10秒。触碰灵枝的友军可恢复生命值和护甲，并获得伤害减免提升。冷却22秒。",
+      "skill_description_en": "Cast out Ligneous Energy to plant Spiritual Twigs that last 10s. Allies who touch them regenerate health and armor and gain increased damage reduction. Cooldown: 22s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "香疗·庇护",
+      "skill_name_en": "Aromatherapy: Protection",
+      "skill_description": "释放木质能量，以灵感护盾守护殷紫萍及所有友军持续8秒。冷却25秒。",
+      "skill_description_en": "Cast out Ligneous Energy, guarding Ziping and all allies with an Inspiration Shield for 8s. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "救恩",
+      "skill_name_en": "Saving Grace",
+      "skill_description": "在怒气达到100%时获得镇魂，若怒气达到70%则可释放，提升恢复效果20%并恢复生命值。",
+      "skill_description_en": "Gain a Sedate Soul at 100% rage, but if at 70% rage, cast it out to increase recovery effect by 20% and regenerate HP.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "救恩·神盾",
+      "skill_name_en": "Saving Grace: Aegis",
+      "skill_description": "以70%怒气召唤终极技能，恢复护甲和生命值。此时镇魂可在不消耗怒气的情况下释放。",
+      "skill_description_en": "Summon the ultimate using 70% rage to regenerate armor and HP. Sedate Soul can be cast without using any Rage.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

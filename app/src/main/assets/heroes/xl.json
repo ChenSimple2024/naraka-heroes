@@ -1,0 +1,62 @@
+{
+  "id": 12,
+  "name": "席拉",
+  "name_en": "Tessa",
+  "weapon_type": "双刀 / 法杖",
+  "weapon_type_en": "Dual Blades / Staff",
+  "faction": "未知",
+  "faction_en": "Unknown",
+  "bio": "席拉，神秘的猫耳少女，以魔法与敏捷横扫战场。她的存在充满谜团，以幻术迷惑敌人，以速度制胜。",
+  "bio_en": "Tessa, a mysterious cat-eared girl who sweeps the battlefield with magic and agility. Her existence is full of mystery.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/xl-1_7dbf7364.jpg",
+  "color": "#6B2A8B",
+  "drawable_name": "hero_xl_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "神秘少女",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "未知",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "席拉，神秘的猫耳少女，以魔法与敏捷横扫战场。她的来历无人知晓，以幻术迷惑敌人，以速度制胜，是战场上最难以捉摸的存在之一。",
+  "skills": [
+    {
+      "skill_name": "幻影步",
+      "skill_name_en": "Phantom Step",
+      "skill_description": "快速闪现至目标位置，留下幻影迷惑敌人。冷却20秒。",
+      "skill_description_en": "Quickly flash to the target position, leaving a phantom to confuse enemies. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "幻影步·连闪",
+      "skill_name_en": "Phantom Step: Chain Flash",
+      "skill_description": "快速闪现至目标位置，可连续闪现两次。冷却25秒。",
+      "skill_description_en": "Quickly flash to the target position, can flash twice consecutively. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "幻境领域",
+      "skill_name_en": "Illusion Domain",
+      "skill_description": "释放幻境领域，范围内敌人陷入幻觉，无法分辨真实目标。持续15秒。怒气上限75000。",
+      "skill_description_en": "Release an Illusion Domain, causing enemies within range to fall into illusions and unable to distinguish real targets. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "幻境领域·强化",
+      "skill_name_en": "Illusion Domain: Enhanced",
+      "skill_description": "释放强化幻境领域，范围内敌人陷入幻觉，同时提升自身攻击力。持续15秒。怒气上限75000。",
+      "skill_description_en": "Release an enhanced Illusion Domain, causing enemies to fall into illusions while boosting own attack. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

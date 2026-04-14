@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1,
+    "name": "宁红夜",
+    "name_en": "Viper Ning",
+    "weapon_type": "长剑 / 镰刀",
+    "weapon_type_en": "Longsword / Scythe",
+    "faction": "玉山",
+    "faction_en": "Yushan",
+    "bio": "玉山盲剑客，血液中流淌着致命毒素。她美丽而危险，双刃随时待命。她的双眼将在命运之时方才睁开，在那之前，她以毒为剑，以感知代替视觉，立于人类之巅。",
+    "bio_en": "The Blind Blademaster of Yushan, Viper Ning's very blood has long been suffused with lethal poison. As beautiful as she is deadly, her blades are ever at the ready. Her eyes shall never behold this world until the time of destiny is nigh.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#8B1A1A",
+    "drawable_name": "hero_viper_ning",
+    "skills": [
+      {
+        "skill_name": "玉山秘法",
+        "skill_name_en": "Yushan Enigma",
+        "skill_description": "凝聚气力向前释放，造成击退效果，可打断敌人蓝色蓄力。可在受击时使用。冷却时间25秒。",
+        "skill_description_en": "Concentrate Qi and release it forward, knocking back enemies and interrupting Blue Focus. Can be used while taking damage. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "玉山秘法·封锁",
+        "skill_name_en": "Yushan Enigma: Lockdown",
+        "skill_description": "凝聚气力向前释放，使敌人沉默8秒，无法使用技能和终极技能。冷却时间15秒。",
+        "skill_description_en": "Release Qi forward, silencing enemies for 8s, preventing skill and ultimate use. Cooldown: 15s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "暮色赤焰",
+        "skill_name_en": "Twilight Crimson",
+        "skill_description": "召唤月煞之眼锁定附近敌人，持续5秒并使其眩晕5秒。被标记的敌人无法使用钩爪。怒气上限75000。",
+        "skill_description_en": "Summon the God of Yin's eye to mark nearby enemies for 5s, then stun them for 5s. Marked enemies cannot use grappling hooks. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "暮色赤焰·解封",
+        "skill_name_en": "Twilight Crimson: Unchained",
+        "skill_description": "召唤月煞之眼后可对锁定目标发动攻击，可打断黄色蓄力，自身获得40%伤害减免。怒气上限75000。",
+        "skill_description_en": "After summoning the eye, attack marked targets and interrupt Golden Focus. Gain 40% damage reduction. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "铁木真",
+    "name_en": "Temulch",
+    "weapon_type": "长剑 / 双刀",
+    "weapon_type_en": "Longsword / Dual Blades",
+    "faction": "草原",
+    "faction_en": "Steppe",
+    "bio": "草原将在铁木真唤醒内力之日被狂风席卷。祖先的传说铭刻于心，他渴望的荣耀近在咫尺。灰狼将再度出击。",
+    "bio_en": "The grasslands shall be wreaked by furious gales the day that Temulch awakens his inner power. His ancestral legends are burned into his mind, and the glory he seeks is so near he can almost taste it. The Grey Wolf shall strike again.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#2E5E1A",
+    "drawable_name": "hero_temulch",
+    "skills": [
+      {
+        "skill_name": "泽风鬼火",
+        "skill_name_en": "Zephyr Wisp",
+        "skill_description": "召唤三个由泽风之灵形成的风球，持续30秒，可阻挡远程攻击。按F可将敌人卷入旋风3秒。冷却18秒。",
+        "skill_description_en": "Summon 3 wind balls that last 30s and block ranged attacks. Press F to pull enemies into a whirlwind for 3s. Cooldown: 18s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "泽风鬼火·追踪",
+        "skill_name_en": "Zephyr Wisp: Tracking",
+        "skill_description": "召唤风球后，按F释放可自动追踪敌人的风球，将其卷入旋风。冷却25秒。",
+        "skill_description_en": "Wind balls auto-track and pull enemies into the whirlwind. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "泽风牢笼",
+        "skill_name_en": "Zephyr Prison",
+        "skill_description": "击退敌人并释放泽风牢笼，阻挡远程攻击和技能，范围内敌人移速降低，持续15秒。怒气上限75000。",
+        "skill_description_en": "Knock back enemies and create a Zephyr Prison that blocks ranged attacks and skills, slowing enemies inside for 15s. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "泽风牢笼·召唤",
+        "skill_name_en": "Zephyr Prison: Summon",
+        "skill_description": "击退敌人并释放风暴牢笼，敌人减速，友军免疫负面效果12秒。铁木真穿越牢笼时免疫负面效果并可补充风球。",
+        "skill_description_en": "Knock back enemies, slow them, and grant allies immunity to debuffs for 12s. Temulch is immune to debuffs while crossing the prison and can reload wind balls.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "迦南",
+    "name_en": "Matari",
+    "weapon_type": "双刀 / 镰刀",
+    "weapon_type_en": "Dual Blades / Scythe",
+    "faction": "沙漠",
+    "faction_en": "Desert",
+    "bio": "在风沙磨砺中锻造的技艺，使她迅捷如鹰。在掌握了一门古老秘术后，她如幽灵般游荡于废墟之中。她是优雅的刺客，是权贵的噩梦。",
+    "bio_en": "Her skills honed by the windy deserts, she is swift as an eagle. Upon mastering an ancient secret art, she now roams the ruins like a phantom. She is a graceful assassin, and nightmare incarnate for those in power.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#1A3A5E",
+    "drawable_name": "hero_matari",
+    "skills": [
+      {
+        "skill_name": "无声羽翼",
+        "skill_name_en": "Silent Flutter",
+        "skill_description": "向目标方向闪现，攻击力提升15%，持续3秒。冷却20秒。",
+        "skill_description_en": "Flash toward the target direction, increasing attack by 15% for 3s. Cooldown: 20s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "无声羽翼·急速",
+        "skill_name_en": "Silent Flutter: Rapid Flash",
+        "skill_description": "向目标方向闪现并提升攻击力，可连续闪现两次。冷却25秒，共2次充能。",
+        "skill_description_en": "Flash toward the target and boost attack. Can flash twice. Cooldown: 25s, 2 charges.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "无形之翼",
+        "skill_name_en": "Unseen Wings",
+        "skill_description": "重置技能冷却，进入隐身状态16秒。隐身期间无声羽翼的闪现距离大幅增加。怒气上限75000。",
+        "skill_description_en": "Reset skill cooldown and enter stealth for 16s. Silent Flutter's flash range is greatly increased while stealthed. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "无形之翼·刺杀",
+        "skill_name_en": "Unseen Wings: Assassin",
+        "skill_description": "重置技能冷却，进入隐身14秒，冲刺伤害大幅提升。怒气上限75000。",
+        "skill_description_en": "Reset skill cooldown, enter stealth for 14s, and greatly increase dash damage. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "季沧海",
+    "name_en": "Tarka Ji",
+    "weapon_type": "拳套 / 长剑",
+    "weapon_type_en": "Gauntlets / Longsword",
+    "faction": "江湖",
+    "faction_en": "Jianghu",
+    "bio": "活得快意，喝得尽兴，享受当下。醉勇之名背后，是一个对自由的渴望与对饮酒的热情同样强烈的男人。他不屈的精神在逆境中赋予他力量。",
+    "bio_en": "Live fast, drink well, and be merry. Behind the name of the Loyal Drunk, there stands a man with a love for freedom as strong as his passion for drinking. His indomitable spirit lends him strength in the face of adversity.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#8B4A1A",
+    "drawable_name": "hero_tarka_ji",
+    "skills": [
+      {
+        "skill_name": "内火",
+        "skill_name_en": "Inner Fire",
+        "skill_description": "进入防御姿态，格挡伤害3秒，随后发动反击，使敌人燃烧5秒。冷却22秒。",
+        "skill_description_en": "Enter a defensive stance, blocking damage for 3s, then counter-attack and burn enemies for 5s. Cooldown: 22s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "内火·蓄势",
+        "skill_name_en": "Inner Fire: Bide",
+        "skill_description": "进入防御姿态格挡伤害5秒，反击伤害根据格挡量提升。冷却25秒。",
+        "skill_description_en": "Block damage for 5s; counter-attack damage scales with damage blocked. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "黑暗爆发",
+        "skill_name_en": "Blackout",
+        "skill_description": "击退附近敌人，进入强化状态32秒，攻击力大幅提升，部分攻击使敌人燃烧，同时提升友军能量恢复速度。怒气上限75000。",
+        "skill_description_en": "Repel nearby enemies and enter an empowered state for 32s, greatly boosting attack. Some attacks burn enemies. Allies recover energy faster. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "黑暗爆发·狂暴",
+        "skill_name_en": "Blackout: Frenzy",
+        "skill_description": "击退敌人，进入强化状态，攻击敌人时恢复怒气，同时提升友军攻击力30秒。怒气上限75000。",
+        "skill_description_en": "Repel enemies, enter empowered state, restore rage on hit, and boost allies' attack for 30s. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "土御门胡桃",
+    "name_en": "Tsuchimikado Kurumi",
+    "weapon_type": "弓 / 法杖",
+    "weapon_type_en": "Bow / Staff",
+    "faction": "阴阳道",
+    "faction_en": "Onmyodo",
+    "bio": "土御门晴明，赫利奥斯之花。天赋异禀，传承古老阴阳师一脉。晴明离开故乡，踏上探寻奥秘、精进阴阳道技艺的旅途，由此开启了她一生中最伟大的冒险。",
+    "bio_en": "Tsuchimikado Kurumi, known as the Flower of Helioth. Naturally gifted, she continues an ancient line of Onmyoji masters. Kurumi set out from her homeland in search of mystery and to perfect her Onmyodo skills, embarking on the adventure of a lifetime.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#5E1A5E",
+    "drawable_name": "hero_kurumi",
+    "skills": [
+      {
+        "skill_name": "结界祈祷",
+        "skill_name_en": "Binding Prayer",
+        "skill_description": "在30米范围内与友军建立连接，为其恢复生命值。可传送至目标处并击退附近敌人。断开连接时为双方净化并恢复生命值。冷却15秒。",
+        "skill_description_en": "Link with an ally within 30m to restore their HP. Teleport to the target and knock back nearby enemies. Breaking the link cleanses and heals both. Cooldown: 15s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "结界祈祷·强化",
+        "skill_name_en": "Binding Prayer: Reinforce",
+        "skill_description": "与友军建立连接，提升其攻击力20%并恢复生命值。断开后为双方净化并提升攻击力40%持续1秒。冷却15秒。",
+        "skill_description_en": "Link with an ally, boosting their attack by 20% and restoring HP. Breaking the link cleanses both and boosts attack by 40% for 1s. Cooldown: 15s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "神圣领域",
+        "skill_name_en": "Sacred Circle",
+        "skill_description": "在指定位置放置持续15秒的圣域，范围内所有友军持续恢复生命值并获得净化效果。怒气上限60000。",
+        "skill_description_en": "Place a Sacred Circle at a location for 15s. Allies inside continuously regenerate HP and are cleansed. Rage limit: 60000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "神圣领域·急速治愈",
+        "skill_name_en": "Sacred Circle: Rapid Healing",
+        "skill_description": "使用阴阳道之力立即为友军恢复大量生命值，多余的治疗量转化为护甲。怒气上限60000。",
+        "skill_description_en": "Instantly restore a large amount of HP to allies using Onmyodo power. Excess healing converts to armor. Rage limit: 60000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "天海",
+    "name_en": "Tianhai",
+    "weapon_type": "拳套 / 法杖",
+    "weapon_type_en": "Gauntlets / Staff",
+    "faction": "佛门",
+    "faction_en": "Buddhist",
+    "bio": "在游历四方的旅途中，他终于找到了自己的使命：拯救这个世界，哪怕以自身为代价。他化身雷霆般的金刚战士，横扫一切阻碍。",
+    "bio_en": "During his travels throughout the lands, he finally found his calling: to save this world, even if it meant his own sacrifice. With the might of a raging thunder he transforms into a titanic Vajra warrior that smites all before it.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#1A4A8B",
+    "drawable_name": "hero_tianhai",
+    "skills": [
+      {
+        "skill_name": "神圣金钟",
+        "skill_name_en": "The Divine Bell",
+        "skill_description": "以气力护体，进入终极专注状态，格挡伤害和负面效果，并偏转远程攻击。冷却25秒。",
+        "skill_description_en": "Use Qi to protect yourself, entering Ultimate Focus, blocking damage and debuffs, and deflecting ranged attacks. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "神圣金钟·反击",
+        "skill_name_en": "The Divine Bell: Counter",
+        "skill_description": "护体同时，可在施放技能时进行反击，随后发动反击连击。冷却25秒。",
+        "skill_description_en": "While protecting yourself, counter-attack when casting the skill, then follow up with a counter combo. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "金刚降临",
+        "skill_name_en": "Titan's Call",
+        "skill_description": "变身为金刚形态，恢复全部生命值，可抓取附近或远处敌人，按F用手掌踩踏。持续30秒。怒气上限75000。",
+        "skill_description_en": "Transform into Vajra form, restore all HP, grab nearby or distant enemies, and press F to stomp. Duration: 30s. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "金刚降临·守护",
+        "skill_name_en": "Titan's Call: Guard",
+        "skill_description": "变身金刚形态，可抓取友军为其恢复生命值和护甲。持续30秒。怒气上限75000。",
+        "skill_description_en": "Transform into Vajra form and grab allies to restore their HP and armor. Duration: 30s. Rage limit: 75000.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "妖刀姬",
+    "name_en": "Yoto Hime",
+    "weapon_type": "太刀 / 双刀",
+    "weapon_type_en": "Katana / Dual Blades",
+    "faction": "东瀛",
+    "faction_en": "Eastern",
+    "bio": "无人能躲过她鬼刃的斩击，她所过之处尸横遍野。当尘埃落定，她再次被罪孽与满手鲜血所压垮。有时，强大的力量并非好事，它是一种必须承担和掌控的负担。",
+    "bio_en": "None can evade the blows from her demonic blade, and she leaves a trail of corpses in her wake. When the dust settles, she once more becomes weighed down with guilt and all the blood upon her hands. Sometimes great strength is no good thing at all.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#6B1A8B",
+    "drawable_name": "hero_yoto_hime",
+    "skills": [
+      {
+        "skill_name": "灵魂斩",
+        "skill_name_en": "Spirit Slash",
+        "skill_description": "释放一把悬停20米、持续3.5秒的刀刃，按F可传送至刀刃处并发动上挑斩击。冷却25秒。",
+        "skill_description_en": "Release a blade that hovers 20m away for 3.5s. Press F to teleport to it and perform an uppercut slash. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "灵魂斩·粉碎",
+        "skill_name_en": "Spirit Slash: Crush",
+        "skill_description": "释放刀刃悬停10米持续5秒，按F发动横向斩击。冷却25秒。",
+        "skill_description_en": "Release a blade hovering 10m away for 5s. Press F to perform a horizontal slash. Cooldown: 25s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "凶刃",
+        "skill_name_en": "Ominous Blade",
+        "skill_description": "释放巨大刀刃，进入鬼神化身状态，可传送至刀刃处对敌人发动攻击。",
+        "skill_description_en": "Release a massive blade and enter Demon Incarnate state. Teleport to the blade and attack enemies.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "凶刃·恢复",
+        "skill_name_en": "Ominous Blade: Restore",
+        "skill_description": "进入鬼神化身状态，免疫控制效果，可感知附近敌人位置。",
+        "skill_description_en": "Enter Demon Incarnate state, become immune to control effects, and sense nearby enemies.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "崔三娘",
+    "name_en": "Valda Cui",
+    "weapon_type": "法杖 / 长枪",
+    "weapon_type_en": "Staff / Spear",
+    "faction": "海域",
+    "faction_en": "Seas",
+    "bio": "身为将门之后，崔三娘在命运的捉弄下叹息着踏上异乡之路。然而她胸怀大志，满腹谋略。这位善于辩论、长于借力的非凡女性，为她所珍视的正义而战。",
+    "bio_en": "Valda Cui, descendent of a general, sighed at the way fate had unfolded as she headed abroad. Yet she harbored great ambition, her mind full of plans and ideas. A remarkable woman skilled at debating and using those around her, she fights for the justice she holds dear.",
+    "avatar_url": "",
+    "portrait_url": "",
+    "color": "#1A5E5E",
+    "drawable_name": "hero_valda_cui",
+    "skills": [
+      {
+        "skill_name": "迷雾",
+        "skill_name_en": "Haze",
+        "skill_description": "射出含有海洋气息的水弹，持续8秒，并为命中的敌人附加「浸湿」标记。冷却15秒。",
+        "skill_description_en": "Shoot water bombs imbued with oceanic Qi that last 8s and apply the Soaked debuff to hit enemies. Cooldown: 15s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能",
+        "skill_type_en": "F Skill"
+      },
+      {
+        "skill_name": "迷雾·阵列",
+        "skill_name_en": "Haze: Array",
+        "skill_description": "在20米范围内释放多个水弹，持续8秒，命中敌人使其束缚0.5秒并附加「浸湿」效果。冷却22秒。",
+        "skill_description_en": "Release multiple water bombs in a 20m radius for 8s, binding hit enemies for 0.5s and applying Soaked. Cooldown: 22s.",
+        "skill_icon_url": "",
+        "skill_type": "F技能变体",
+        "skill_type_en": "F Skill Variant"
+      },
+      {
+        "skill_name": "幽冥噩梦",
+        "skill_name_en": "Nether Nightmares",
+        "skill_description": "击退敌人，召唤海洋之流腾空，用龙之缠绕标记敌人15秒，可在空中召唤水矛结束终极技能。",
+        "skill_description_en": "Knock back enemies, summon Ocean Flow to go airborne, mark enemies with Dragon's Coil for 15s, and summon water spears to end the ultimate.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能",
+        "skill_type_en": "Ultimate"
+      },
+      {
+        "skill_name": "幽冥噩梦·束缚",
+        "skill_name_en": "Nether Nightmares: Bind",
+        "skill_description": "击退敌人，用龙之缠绕束缚被攻击的敌人9秒，可召唤多支水矛造成额外伤害。",
+        "skill_description_en": "Knock back enemies, bind attacked enemies with Dragon's Coil for 9s, and summon multiple water spears for extra damage.",
+        "skill_icon_url": "",
+        "skill_type": "终极技能变体",
+        "skill_type_en": "Ultimate Variant"
+      }
+    ]
+  }
+]

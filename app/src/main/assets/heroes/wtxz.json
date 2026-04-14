@@ -1,0 +1,62 @@
+{
+  "id": 21,
+  "name": "万天行者",
+  "name_en": "Wan Tianxingzhe",
+  "weapon_type": "长剑 / 法杖",
+  "weapon_type_en": "Longsword / Staff",
+  "faction": "天道",
+  "faction_en": "Heavenly Way",
+  "bio": "万天行者，以天道之力横扫战场的神秘战士。他以星辰之力为武器，以天道之法则制敌，是战场上最神秘的存在。",
+  "bio_en": "Wan Tianxingzhe, a mysterious warrior who sweeps the battlefield with the power of the Heavenly Way. He uses stellar power as a weapon, controlling enemies with the laws of heaven.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/wtxz-1_c9f16880.jpg",
+  "color": "#1A2A6B",
+  "drawable_name": "hero_wtxz_portrait",
+  "age": "未知",
+  "birthplace": "天界",
+  "identity": "天道行者",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "参悟天道、星辰观测",
+  "dislikes": "违背天道者",
+  "cv": "未知",
+  "story": "万天行者，以天道之力横扫战场的神秘战士。他以星辰之力为武器，以天道之法则制敌，在战场上展现出令人叹为观止的神秘力量。",
+  "skills": [
+    {
+      "skill_name": "星辰之力",
+      "skill_name_en": "Stellar Power",
+      "skill_description": "召唤星辰之力，向目标方向发射星辰能量，造成伤害并使敌人减速。冷却20秒。",
+      "skill_description_en": "Summon stellar power and shoot stellar energy toward the target direction, dealing damage and slowing enemies. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "星辰之力·爆发",
+      "skill_name_en": "Stellar Power: Burst",
+      "skill_description": "召唤强化星辰之力，向目标方向发射爆发性星辰能量，造成大量伤害并使敌人眩晕。冷却25秒。",
+      "skill_description_en": "Summon enhanced stellar power and shoot burst stellar energy, dealing massive damage and stunning enemies. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "天道法则",
+      "skill_name_en": "Heavenly Law",
+      "skill_description": "以天道法则束缚范围内所有敌人，使其无法移动，并对其造成持续伤害。持续10秒。怒气上限75000。",
+      "skill_description_en": "Bind all enemies in range with Heavenly Law, preventing movement and dealing continuous damage. Duration: 10s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "天道法则·强化",
+      "skill_name_en": "Heavenly Law: Enhanced",
+      "skill_description": "以强化天道法则束缚范围内所有敌人，同时提升自身攻击力。持续10秒。怒气上限75000。",
+      "skill_description_en": "Bind all enemies in range with enhanced Heavenly Law while boosting own attack. Duration: 10s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

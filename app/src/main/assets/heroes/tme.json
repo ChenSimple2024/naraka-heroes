@@ -1,0 +1,62 @@
+{
+  "id": 5,
+  "name": "铁木真",
+  "name_en": "Temulch",
+  "weapon_type": "长剑 / 双刀",
+  "weapon_type_en": "Longsword / Dual Blades",
+  "faction": "草原",
+  "faction_en": "Steppe",
+  "bio": "草原将在铁木真唤醒内力之日被狂风席卷。祖先的传说铭刻于心，他渴望的荣耀近在咫尺。灰狼将再度出击。",
+  "bio_en": "The grasslands shall be wreaked by furious gales the day that Temulch awakens his inner power. His ancestral legends are burned into his mind. The Grey Wolf shall strike again.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/tme-1_97415fba.jpg",
+  "color": "#2E5E1A",
+  "drawable_name": "hero_tme_portrait",
+  "age": "未知",
+  "birthplace": "草原",
+  "identity": "草原勇士",
+  "fav_food": "烤肉",
+  "dislike_food": "未知",
+  "hobbies": "骑射、战斗",
+  "dislikes": "懦弱",
+  "cv": "未知",
+  "story": "铁木真，草原上的灰狼，以风为盾，以力为矛。他的祖先传说铭刻于心，荣耀之路就在眼前。当他唤醒内力之日，草原将被狂风席卷，灰狼将再度出击。",
+  "skills": [
+    {
+      "skill_name": "泽风鬼火",
+      "skill_name_en": "Zephyr Wisp",
+      "skill_description": "召唤三个由泽风之灵形成的风球，持续30秒，可阻挡远程攻击。按F可将敌人卷入旋风3秒。冷却18秒。",
+      "skill_description_en": "Summon 3 wind balls that last 30s and block ranged attacks. Press F to pull enemies into a whirlwind for 3s. Cooldown: 18s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "泽风鬼火·追踪",
+      "skill_name_en": "Zephyr Wisp: Tracking",
+      "skill_description": "召唤风球后，按F释放可自动追踪敌人的风球，将其卷入旋风。冷却25秒。",
+      "skill_description_en": "Wind balls auto-track and pull enemies into the whirlwind. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "泽风牢笼",
+      "skill_name_en": "Zephyr Prison",
+      "skill_description": "击退敌人并释放泽风牢笼，阻挡远程攻击和技能，范围内敌人移速降低，持续15秒。怒气上限75000。",
+      "skill_description_en": "Knock back enemies and create a Zephyr Prison that blocks ranged attacks and skills, slowing enemies inside for 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "泽风牢笼·召唤",
+      "skill_name_en": "Zephyr Prison: Summon",
+      "skill_description": "击退敌人并释放风暴牢笼，敌人减速，友军免疫负面效果12秒。铁木真穿越牢笼时免疫负面效果并可补充风球。",
+      "skill_description_en": "Knock back enemies, slow them, grant allies immunity to debuffs for 12s. Temulch is immune to debuffs while crossing the prison.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

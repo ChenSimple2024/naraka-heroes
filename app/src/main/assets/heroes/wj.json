@@ -1,0 +1,62 @@
+{
+  "id": 22,
+  "name": "万钧",
+  "name_en": "Wanjun",
+  "weapon_type": "大锤 / 长剑",
+  "weapon_type_en": "Greathammer / Longsword",
+  "faction": "铁匠",
+  "faction_en": "Blacksmith",
+  "bio": "万钧，以万钧之力横扫战场的铁匠战士。他以大锤为武器，以无尽的力量震慑敌人，是战场上最强壮的存在。",
+  "bio_en": "Wanjun, a blacksmith warrior who sweeps the battlefield with immense force. He uses a greathammer as a weapon, intimidating enemies with endless strength.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/wj-1_b925ee55.jpg",
+  "color": "#6B3A1A",
+  "drawable_name": "hero_wj_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "铁匠战士",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "锻造、战斗",
+  "dislikes": "脆弱",
+  "cv": "未知",
+  "story": "万钧，以万钧之力横扫战场的铁匠战士。他以大锤为武器，以无尽的力量震慑敌人，在战场上展现出令人叹为观止的破坏力。",
+  "skills": [
+    {
+      "skill_name": "万钧一击",
+      "skill_name_en": "Crushing Blow",
+      "skill_description": "以大锤发动万钧一击，对目标造成大量伤害并使其击飞。冷却25秒。",
+      "skill_description_en": "Strike with the greathammer for a crushing blow, dealing massive damage and launching the target. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "万钧一击·震地",
+      "skill_name_en": "Crushing Blow: Earthquake",
+      "skill_description": "以大锤猛击地面，造成范围伤害并使附近敌人眩晕。冷却28秒。",
+      "skill_description_en": "Slam the greathammer into the ground, dealing area damage and stunning nearby enemies. Cooldown: 28s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "铁壁防御",
+      "skill_name_en": "Iron Wall Defense",
+      "skill_description": "以铁壁之力守护自身，大幅提升伤害减免，并对攻击自身的敌人造成反弹伤害。持续15秒。怒气上限75000。",
+      "skill_description_en": "Protect yourself with iron wall power, greatly increasing damage reduction and reflecting damage to attacking enemies. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "铁壁防御·强化",
+      "skill_name_en": "Iron Wall Defense: Enhanced",
+      "skill_description": "以强化铁壁之力守护自身，大幅提升伤害减免，同时提升自身攻击力。持续15秒。怒气上限75000。",
+      "skill_description_en": "Protect yourself with enhanced iron wall power, greatly increasing damage reduction while boosting own attack. Duration: 15s. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

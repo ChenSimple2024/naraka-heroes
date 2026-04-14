@@ -1,0 +1,62 @@
+{
+  "id": 8,
+  "name": "胡桃",
+  "name_en": "Tsuchimikado Kurumi",
+  "weapon_type": "弓 / 法杖",
+  "weapon_type_en": "Bow / Staff",
+  "faction": "阴阳道",
+  "faction_en": "Onmyodo",
+  "bio": "土御门晴明，赫利奥斯之花。天赋异禀，传承古老阴阳师一脉。晴明离开故乡，踏上探寻奥秘、精进阴阳道技艺的旅途。",
+  "bio_en": "Tsuchimikado Kurumi, known as the Flower of Helioth. Naturally gifted, she continues an ancient line of Onmyoji masters, embarking on the adventure of a lifetime.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/hutao-1_3ea79ba6.jpg",
+  "color": "#5E1A5E",
+  "drawable_name": "hero_hutao_portrait",
+  "age": "未知",
+  "birthplace": "东瀛",
+  "identity": "阴阳师",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "阴阳道修炼、探索奥秘",
+  "dislikes": "未知",
+  "cv": "未知",
+  "story": "胡桃，阴阳道传人，以神圣之力守护同伴。她离开故乡，踏上探寻奥秘的旅途，以结界祈祷为盾，以神圣领域为援，成为战场上不可或缺的守护者。",
+  "skills": [
+    {
+      "skill_name": "结界祈祷",
+      "skill_name_en": "Binding Prayer",
+      "skill_description": "在30米范围内与友军建立连接，为其恢复生命值。可传送至目标处并击退附近敌人。断开连接时为双方净化并恢复生命值。冷却15秒。",
+      "skill_description_en": "Link with an ally within 30m to restore their HP. Teleport to the target and knock back nearby enemies. Breaking the link cleanses and heals both. Cooldown: 15s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "结界祈祷·强化",
+      "skill_name_en": "Binding Prayer: Reinforce",
+      "skill_description": "与友军建立连接，提升其攻击力20%并恢复生命值。断开后为双方净化并提升攻击力40%持续1秒。冷却15秒。",
+      "skill_description_en": "Link with an ally, boosting their attack by 20% and restoring HP. Breaking the link cleanses both and boosts attack by 40% for 1s. Cooldown: 15s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "神圣领域",
+      "skill_name_en": "Sacred Circle",
+      "skill_description": "在指定位置放置持续15秒的圣域，范围内所有友军持续恢复生命值并获得净化效果。怒气上限60000。",
+      "skill_description_en": "Place a Sacred Circle at a location for 15s. Allies inside continuously regenerate HP and are cleansed. Rage limit: 60000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "神圣领域·急速治愈",
+      "skill_name_en": "Sacred Circle: Rapid Healing",
+      "skill_description": "使用阴阳道之力立即为友军恢复大量生命值，多余的治疗量转化为护甲。怒气上限60000。",
+      "skill_description_en": "Instantly restore a large amount of HP to allies. Excess healing converts to armor. Rage limit: 60000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}

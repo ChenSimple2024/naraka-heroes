@@ -1,0 +1,62 @@
+{
+  "id": 19,
+  "name": "刘明",
+  "name_en": "Liuming",
+  "weapon_type": "双刀 / 长枪",
+  "weapon_type_en": "Dual Blades / Spear",
+  "faction": "未知",
+  "faction_en": "Unknown",
+  "bio": "刘明，以雷电之力横扫战场的战士。他以迅雷不及掩耳之势发动攻击，以雷霆之力震慑敌人。",
+  "bio_en": "Liuming, a warrior who sweeps the battlefield with lightning power. He attacks with the speed of lightning, intimidating enemies with thunderous force.",
+  "avatar_url": "",
+  "portrait_url": "https://yjwujian.res.netease.com/pc/zt/20220802191715/img/lm-1_2acde61d.jpg",
+  "color": "#4A1A8B",
+  "drawable_name": "hero_lm_portrait",
+  "age": "未知",
+  "birthplace": "未知",
+  "identity": "雷电战士",
+  "fav_food": "未知",
+  "dislike_food": "未知",
+  "hobbies": "速度、战斗",
+  "dislikes": "迟缓",
+  "cv": "未知",
+  "story": "刘明，以雷电之力横扫战场的战士。他以迅雷不及掩耳之势发动攻击，以雷霆之力震慑敌人，是战场上速度最快的存在之一。",
+  "skills": [
+    {
+      "skill_name": "雷霆冲刺",
+      "skill_name_en": "Thunder Dash",
+      "skill_description": "以雷电之力向前冲刺，对路径上的敌人造成伤害并使其眩晕。冷却20秒。",
+      "skill_description_en": "Dash forward with lightning power, damaging and stunning enemies in the path. Cooldown: 20s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能",
+      "skill_type_en": "F Skill"
+    },
+    {
+      "skill_name": "雷霆冲刺·连击",
+      "skill_name_en": "Thunder Dash: Chain",
+      "skill_description": "以雷电之力向前冲刺，可连续冲刺两次，对路径上的敌人造成伤害。冷却25秒。",
+      "skill_description_en": "Dash forward with lightning power, can dash twice consecutively, damaging enemies in the path. Cooldown: 25s.",
+      "skill_icon_url": "",
+      "skill_type": "F技能变体",
+      "skill_type_en": "F Skill Variant"
+    },
+    {
+      "skill_name": "雷神降临",
+      "skill_name_en": "Thunder God's Descent",
+      "skill_description": "召唤雷神之力，对范围内所有敌人造成大量雷电伤害，并使其眩晕。怒气上限75000。",
+      "skill_description_en": "Summon the power of the Thunder God, dealing massive lightning damage to all enemies in range and stunning them. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能",
+      "skill_type_en": "Ultimate"
+    },
+    {
+      "skill_name": "雷神降临·强化",
+      "skill_name_en": "Thunder God's Descent: Enhanced",
+      "skill_description": "召唤强化雷神之力，对范围内所有敌人造成大量雷电伤害，同时提升自身攻击力。怒气上限75000。",
+      "skill_description_en": "Summon enhanced Thunder God power, dealing massive lightning damage to all enemies while boosting own attack. Rage limit: 75000.",
+      "skill_icon_url": "",
+      "skill_type": "终极技能变体",
+      "skill_type_en": "Ultimate Variant"
+    }
+  ]
+}
