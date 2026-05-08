@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,10 +37,17 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Paint
+import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.withSaveLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -53,20 +61,13 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.SubcomposeAsyncImage
 import coil.request.ImageRequest
 import com.naraka.heroes.R
-import com.naraka.heroes.model.Hero
+import com.naraka.heroes.core.model.Hero
 import com.naraka.heroes.ui.theme.NarakaDarkBg
 import com.naraka.heroes.ui.theme.NarakaGold
 import com.naraka.heroes.ui.theme.NarakaSurface
 import com.naraka.heroes.ui.viewmodel.AppLanguage
 import com.naraka.heroes.ui.viewmodel.HeroListViewModel
 import kotlin.math.absoluteValue
-
-/** 根据 Hero.drawableName 动态查找本地 drawable 资源 ID */
-fun heroDrawableRes(context: android.content.Context, drawableName: String): Int {
-    if (drawableName.isBlank()) return R.drawable.naraka_logo
-    val resId = context.resources.getIdentifier(drawableName, "drawable", context.packageName)
-    return if (resId != 0) resId else R.drawable.naraka_logo
-}
 
 // ── Screen 入口（依赖 ViewModel）────────────────────────────────────────────────
 
@@ -179,14 +180,22 @@ private fun HeroPagerContent(
                     .fillMaxWidth()
                     .padding(top = 40.dp, start = 16.dp, end = 16.dp, bottom = 8.dp)
             ) {
-                // 官方中文 logo（透明背景 PNG）
-                Image(
-                    painter = painterResource(id = R.drawable.naraka_logo_cn),
-                    contentDescription = "永劫无间",
-                    contentScale = ContentScale.Fit,
+                // 官方中文 logo（使用混合模式过滤黑色背景）
+                val logoPainter = painterResource(id = R.drawable.naraka_logo_cn)
+                Box(
                     modifier = Modifier
                         .height(52.dp)
+                        .width(140.dp) // 根据图片比例大致设置
                         .align(Alignment.Center)
+                        .drawWithContent {
+                            drawIntoCanvas { canvas ->
+                                canvas.withSaveLayer(Rect(Offset.Zero, size), Paint().apply { blendMode = BlendMode.Screen }) {
+                                    with(logoPainter) {
+                                        draw(size)
+                                    }
+                                }
+                            }
+                        }
                 )
                 Box(
                     modifier = Modifier
@@ -348,25 +357,39 @@ private fun HeroCard(hero: Hero, modifier: Modifier = Modifier, onClick: () -> U
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(380.dp),
+                    .aspectRatio(3f / 4f),
                 loading = {
-                    Image(
-                        painter = painterResource(id = heroDrawableRes(context, hero.drawableName)),
-                        contentDescription = null,
-                        contentScale = ContentScale.Crop,
+                    val placeholder = painterResource(id = R.drawable.naraka_logo)
+                    Box(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .height(380.dp)
+                            .fillMaxSize()
+                            .padding(80.dp)
+                            .drawWithContent {
+                                drawIntoCanvas { canvas ->
+                                    canvas.withSaveLayer(Rect(Offset.Zero, size), Paint().apply { blendMode = BlendMode.Screen }) {
+                                        with(placeholder) {
+                                            draw(size)
+                                        }
+                                    }
+                                }
+                            }
                     )
                 },
                 error = {
-                    Image(
-                        painter = painterResource(id = heroDrawableRes(context, hero.drawableName)),
-                        contentDescription = null,
-                        contentScale = ContentScale.Crop,
+                    val placeholder = painterResource(id = R.drawable.naraka_logo)
+                    Box(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .height(380.dp)
+                            .fillMaxSize()
+                            .padding(80.dp)
+                            .drawWithContent {
+                                drawIntoCanvas { canvas ->
+                                    canvas.withSaveLayer(Rect(Offset.Zero, size), Paint().apply { blendMode = BlendMode.Screen }) {
+                                        with(placeholder) {
+                                            draw(size)
+                                        }
+                                    }
+                                }
+                            }
                     )
                 }
             )

@@ -3,13 +3,18 @@ package com.naraka.heroes
 import android.app.Application
 import coil.Coil
 import coil.ImageLoader
+import com.naraka.heroes.BuildConfig
 import dagger.hilt.android.HiltAndroidApp
 import okhttp3.OkHttpClient
+import timber.log.Timber
 
 @HiltAndroidApp
 class NarakaHeroesApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+        if (BuildConfig.DEBUG) {
+            Timber.plant(Timber.DebugTree())
+        }
         // 配置 Coil 使用支持重定向的 OkHttpClient（fandom wiki 图片 URL 会重定向）
         val imageLoader = ImageLoader.Builder(this)
             .okHttpClient {

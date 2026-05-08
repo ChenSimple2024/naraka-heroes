@@ -1,8 +1,8 @@
 package com.naraka.heroes.ui.preview
 
-import com.naraka.heroes.model.Hero
-import com.naraka.heroes.model.HeroSkill
-import com.naraka.heroes.model.HeroWithSkills
+import com.naraka.heroes.core.model.Hero
+import com.naraka.heroes.core.model.HeroSkill
+import com.naraka.heroes.core.model.HeroWithSkills
 
 /** 所有 Preview 用的假数据，集中管理，不污染业务代码 */
 

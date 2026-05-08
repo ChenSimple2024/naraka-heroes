@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,8 +37,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Paint
+import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
+import androidx.compose.ui.graphics.withSaveLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -49,8 +57,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.SubcomposeAsyncImage
 import coil.request.ImageRequest
 import com.naraka.heroes.R
-import com.naraka.heroes.model.HeroSkill
-import com.naraka.heroes.model.HeroWithSkills
+import com.naraka.heroes.core.model.Hero
+import com.naraka.heroes.core.model.HeroSkill
+import com.naraka.heroes.core.model.HeroWithSkills
 import com.naraka.heroes.ui.theme.NarakaDarkBg
 import com.naraka.heroes.ui.theme.NarakaGold
 import com.naraka.heroes.ui.theme.NarakaSurface
@@ -130,25 +139,41 @@ fun HeroDetailContent(
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(420.dp),
+                            .aspectRatio(3f / 4f),
                         loading = {
-                            Image(
-                                painter = painterResource(id = heroDrawableRes(context, hero.drawableName)),
-                                contentDescription = null,
-                                contentScale = ContentScale.Crop,
+                            val placeholder = painterResource(id = R.drawable.naraka_logo)
+                            Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .height(420.dp)
+                                    .aspectRatio(3f / 4f)
+                                    .padding(100.dp)
+                                    .drawWithContent {
+                                        drawIntoCanvas { canvas ->
+                                            canvas.withSaveLayer(Rect(Offset.Zero, size), Paint().apply { blendMode = BlendMode.Screen }) {
+                                                with(placeholder) {
+                                                    draw(size)
+                                                }
+                                            }
+                                        }
+                                    }
                             )
                         },
                         error = {
-                            Image(
-                                painter = painterResource(id = heroDrawableRes(context, hero.drawableName)),
-                                contentDescription = null,
-                                contentScale = ContentScale.Crop,
+                            val placeholder = painterResource(id = R.drawable.naraka_logo)
+                            Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .height(420.dp)
+                                    .aspectRatio(3f / 4f)
+                                    .padding(100.dp)
+                                    .drawWithContent {
+                                        drawIntoCanvas { canvas ->
+                                            canvas.withSaveLayer(Rect(Offset.Zero, size), Paint().apply { blendMode = BlendMode.Screen }) {
+                                                with(placeholder) {
+                                                    draw(size)
+                                                }
+                                            }
+                                        }
+                                    }
                             )
                         }
                     )
@@ -385,7 +410,7 @@ fun HeroDetailContent(
 }
 
 @Composable
-private fun ProfileCard(hero: com.naraka.heroes.model.Hero, heroColor: Color, language: AppLanguage) {
+private fun ProfileCard(hero: Hero, heroColor: Color, language: AppLanguage) {
     val isChinese = language == AppLanguage.CHINESE
     val items = buildList {
         if (hero.age.isNotBlank()) add(Pair(if (isChinese) "年龄" else "Age", hero.age))

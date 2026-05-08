@@ -2,8 +2,8 @@ package com.naraka.heroes.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.naraka.heroes.model.Hero
-import com.naraka.heroes.repository.HeroRepository
+import com.naraka.heroes.core.data.repository.HeroRepository
+import com.naraka.heroes.core.model.Hero
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -31,15 +31,12 @@ class HeroListViewModel @Inject constructor(
 
     private fun loadHeroes() {
         viewModelScope.launch {
-            _isLoading.value = true
-            heroRepository.loadHeroes(
-                onError = {
-                    _errorMessage.value = it
-                    _isLoading.value = false  // 出错时也要结束 loading
-                }
+            heroRepository.fetchHeroList(
+                onStart = { _isLoading.value = true },
+                onComplete = { _isLoading.value = false },
+                onError = { _errorMessage.value = it }
             ).collect { heroes ->
                 _heroList.value = heroes
-                _isLoading.value = false
             }
         }
     }
